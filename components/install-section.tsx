@@ -42,7 +42,7 @@ export function InstallSection() {
 
       <div className="mt-10 flex justify-center">
         <a
-          href="./FlashPrep-AI.apk"
+          href="https://github.com/gyanivillager-wq/flashprep-ai-xo/releases/download/1.1/FlashPrep-AI.apk"
           download
           className="group inline-flex items-center gap-2 rounded-full bg-[#00E676] px-7 py-3.5 text-base font-bold text-[#0D0F12] shadow-[0_0_40px_-8px_rgba(0,230,118,0.6)] transition-transform hover:scale-105"
         >
