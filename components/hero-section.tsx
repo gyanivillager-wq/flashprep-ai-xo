@@ -1,4 +1,4 @@
-import { Download, ShieldCheck, BookOpenCheck, BadgeCheck } from "lucide-react"
+import { Download, ShieldCheck, BookOpenCheck, BadgeCheck, FileArchive } from "lucide-react"
 
 const badges = [
   { icon: ShieldCheck, label: "Verified for Android" },
@@ -38,12 +38,20 @@ export function HeroSection() {
 
         <div className="mt-9 flex flex-col items-center justify-center gap-4 sm:flex-row">
           <a
-            href="https://github.com/gyanivillager-wq/flashprep-ai-xo/releases/download/1.1/FlashPrep-AI.apk"
+            href="https://github.com/gyanivillager-wq/flashprep-ai-xo/releases/download/v2.0.0/FlashPrepAI-v2.apk"
             download
-            className="group inline-flex items-center gap-2 rounded-full bg-[#00E676] px-7 py-3.5 text-base font-bold text-[#0D0F12] shadow-[0_0_40px_-8px_rgba(0,230,118,0.6)] transition-transform hover:scale-105"
+            className="group inline-flex items-center gap-3 rounded-2xl bg-[#00E676] px-6 py-4 text-left font-bold text-[#0D0F12] shadow-[0_0_40px_-8px_rgba(0,230,118,0.6)] transition-transform hover:scale-105"
           >
-            <Download className="size-5 transition-transform group-hover:translate-y-0.5" />
-            Download APK Directly
+            <FileArchive className="size-6 shrink-0 transition-transform group-hover:translate-y-0.5" />
+            <span>
+              <span className="flex items-center gap-2 text-base">
+                Download FlashPrep AI v2.0 (APK)
+                <span className="rounded-full bg-[#0D0F12]/15 px-2 py-0.5 text-[10px] uppercase tracking-wide">
+                  v2.0.0 Latest
+                </span>
+              </span>
+              <span className="mt-1 block text-xs font-semibold text-[#0D0F12]/65">71.2 MB · v2.0.0</span>
+            </span>
           </a>
         </div>
 
